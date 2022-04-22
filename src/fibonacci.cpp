@@ -2,6 +2,7 @@
 
 #include <cmath>    // pow, sqrt, round
 #include <cstdint>  // int64_t
+#include <iostream>
 
 namespace assignment {
 
@@ -70,11 +71,7 @@ namespace assignment {
       return n;
     }
 
-    // Напишите здесь свой код ...
-
-    // Tip: используйте реализованную функцию matrix_pow
-
-    return 0;
+    return matrix_power(FibMatrix, n)[0][1];
   }
 
 }  // namespace assignment
